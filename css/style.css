@@ -1,0 +1,21 @@
+body { background-color: #7c0707; }
+.card { border-radius: 12px; }
+.subject-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  background-color: #09692b;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #092358;
+  border-radius: 10px;
+}
+.completed { opacity: 0.6; text-decoration: line-through; }
